@@ -13,11 +13,9 @@ function App() {
             </div>
 
         </div>
-        <div className="exercise">Exercise 3</div>
+        <div className="exercise">Exercise 4</div>
         <div className="textInfo">
-            <p><u>Iteration 1:</u>Give the value of "x"from ComponentA to ComponentC</p>
-          
-            <p><u>Iteration 2:</u>Change the "x" when clicking on the button "x++"</p>
+           <p>When the user type some information in the input, it should change the list of prime number.</p>
         </div>
     </div>
   );
