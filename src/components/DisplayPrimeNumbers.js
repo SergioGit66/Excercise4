@@ -41,7 +41,7 @@ const DisplayPrimeNumbers = (props) => {
         <div className="DisplayPrimeNumbers">
             <h2>Display Prime Numbers</h2>
             <p>Prime numbers until limit = <strong>{query} </strong> </p>
-            <p> {generateNumbers(query)}  </p>
+            <p> {generateNumbers(query).join(" ")}  </p>
         </div>
     )
 
