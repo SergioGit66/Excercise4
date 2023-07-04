@@ -2,7 +2,6 @@ import { queries } from "@testing-library/react";
 import { useState } from "react";
 
 
-
 const DisplayPrimeNumbers = (props) => {
     const { query } = props;
     const queryNumber = parseInt({ query })
@@ -37,12 +36,12 @@ const DisplayPrimeNumbers = (props) => {
         return primeNumbers;
 
     }
-    console.log(generateNumbers({ query }));
+    console.log(generateNumbers(query));
     return (
         <div className="DisplayPrimeNumbers">
             <h2>Display Prime Numbers</h2>
             <p>Prime numbers until limit = <strong>{query} </strong> </p>
-            <p> {result} </p>
+            <p> {generateNumbers(query)}  </p>
         </div>
     )
 
